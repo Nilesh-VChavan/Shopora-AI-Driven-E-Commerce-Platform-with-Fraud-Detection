@@ -3,32 +3,20 @@
 > **"Shop Smart. Shop Secure. Shop AI."**  
 > A full-stack e-commerce platform with **AI-powered fraud detection**,**admin analytics**.
 
-[![Shopora](https://img.shields.io/badge/Shopora-Live-8B5CF6?style=for-the-badge&logo=react)](https://shopora-ai-driven-e-commerce-platfo.vercel.app/)
-[![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi)](https://shopora-backend.onrender.com/docs)  
-![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)  
-![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python)  
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb)
-
----
-
-## Live Demo
-
-- **Live**: (https://shopora-ai-driven-e-commerce-platfo.vercel.app/)  
-- **API Docs**: ()
-
 ---
 
 ## Screenshots
 
 | Landing Page | Admin Dashboard |
 |--------------|-----------------|
-| ![Landing](screenshots/landing.png) | ![Admin](screenshots/admin-dashboard.png) |
+|<img width="1363" height="641" alt="landing page" src="https://github.com/user-attachments/assets/8d83556f-a75c-4b43-a78e-c2d57e62390c" /> | ![Admin](screenshots/admin-dashboard.png) |
 
 | AI Fraud Detection | Product Detail (₹) |
 |---------------------|---------------------|
 | ![Fraud Badge](screenshots/fraud-detection.png) | ![Product](screenshots/product-detail.png) |
 
 ---
+
 
 ## Features
 
