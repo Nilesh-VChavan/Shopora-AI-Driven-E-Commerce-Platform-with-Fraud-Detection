@@ -1,7 +1,7 @@
 # Shopora - AI-Driven E-Commerce Platform
 
 > **"Shop Smart. Shop Secure. Shop AI."**  
-> A full-stack e-commerce platform with **AI-powered fraud detection**, **Indian Rupee (₹) support**, **admin analytics**, and **cinematic UI**.
+> A full-stack e-commerce platform with **AI-powered fraud detection**,**admin analytics**.
 
 [![Shopora]()  
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi)](https://shopora-backend.onrender.com/docs)  
