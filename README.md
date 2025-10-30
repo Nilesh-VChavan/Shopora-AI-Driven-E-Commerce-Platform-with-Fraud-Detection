@@ -1,4 +1,4 @@
-# Shopora - AI-Driven E-Commerce Platform
+# Shopora - AI-Driven E-Commerce Platform with fraud detection
 
 > **"Shop Smart. Shop Secure. Shop AI."**  
 > A full-stack e-commerce platform with **AI-powered fraud detection**,**admin analytics**.
