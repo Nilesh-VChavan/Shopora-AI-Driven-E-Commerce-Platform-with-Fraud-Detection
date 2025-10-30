@@ -13,8 +13,8 @@
 
 ## Live Demo
 
-- **Live**: [)  
-- **API Docs**: [)
+- **Live**: (https://shopora-ai-driven-e-commerce-platfo.vercel.app/)  
+- **API Docs**: ()
 
 ---
 
