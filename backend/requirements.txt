@@ -1,16 +1,17 @@
-# --- FastAPI stack ---
+# --- Core ---
 fastapi==0.115.0
 uvicorn==0.30.6
 
-# --- MongoDB (Async) stack ---
+# --- MongoDB (Async) ---
 motor==3.6.0
-pymongo==4.15.3    # ✅ latest stable, fixes _QUERY_OPTIONS error
+pymongo==4.15.3
 
-# --- Settings & Validation ---
-pydantic==2.9.2
-pydantic-settings==2.6.1
+# --- Pydantic stack (core + settings) ---
+pydantic==2.7.4
+pydantic-core==2.18.4
+pydantic-settings==2.4.0
 
-# --- Authentication & Security ---
+# --- Authentication ---
 passlib[bcrypt]==1.7.4
 python-jose[cryptography]==3.3.0
 
