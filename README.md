@@ -3,7 +3,7 @@
 > **"Shop Smart. Shop Secure. Shop AI."**  
 > A full-stack e-commerce platform with **AI-powered fraud detection**,**admin analytics**.
 
-[![Shopora](https://shopora-ai-driven-e-commerce-platfo.vercel.app/)  
+[![Shopora](https://img.shields.io/badge/Shopora-Live-8B5CF6?style=for-the-badge&logo=react)](https://shopora-ai-driven-e-commerce-platfo.vercel.app/)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi)](https://shopora-backend.onrender.com/docs)  
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)  
 ![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python)  
