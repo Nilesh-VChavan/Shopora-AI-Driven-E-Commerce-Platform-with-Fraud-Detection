@@ -1,22 +1,13 @@
-# --- Core ---
-fastapi==0.115.0
-uvicorn==0.30.6
-
-# --- MongoDB (Async) ---
-motor==3.6.0
-pymongo==4.15.3
-
-# --- Pydantic stack (core + settings) ---
-pydantic==2.7.4
-pydantic-core==2.18.4
-pydantic-settings==2.4.0
-
-# --- Authentication ---
-passlib[bcrypt]==1.7.4
-python-jose[cryptography]==3.3.0
-
-# --- Machine Learning / Data ---
-scikit-learn==1.5.2
-joblib==1.4.2
-pandas==2.2.3
-numpy==2.1.2
+fastapi
+uvicorn
+motor
+pymongo
+pydantic
+pydantic-core
+pydantic-settings
+passlib[bcrypt]
+python-jose[cryptography]
+scikit-learn
+joblib
+pandas
+numpy
