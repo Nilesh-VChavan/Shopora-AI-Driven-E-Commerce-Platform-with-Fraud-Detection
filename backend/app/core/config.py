@@ -1,10 +1,13 @@
+import os
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    MONGO_URI: str
-    JWT_SECRET: str
+    MONGO_URI: str = os.getenv("MONGO_URI")
+    DATABASE_NAME: str = "shopora"
+    JWT_SECRET: str = os.getenv("JWT_SECRET")
     JWT_ALGORITHM: str = "HS256"
 
-    model_config = {"env_file": ".env"}
+    class Config:
+        env_file = ".env"
 
 settings = Settings()
