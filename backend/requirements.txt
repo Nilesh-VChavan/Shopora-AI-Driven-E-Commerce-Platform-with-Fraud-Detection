@@ -5,7 +5,7 @@ pymongo
 pydantic
 pydantic-core
 pydantic-settings
-passlib[bcrypt]
+passlib[bcrypt]==1.7.4
 python-jose[cryptography]
 scikit-learn
 joblib
