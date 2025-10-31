@@ -10,7 +10,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://shopora-ai-driven-e-commerce-platform.vercel.app"
+        "https://shopora-ai-driven-e-commerce-platfo.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
