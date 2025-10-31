@@ -19,3 +19,17 @@ app.include_router(cart.router, prefix="/api/cart")
 app.include_router(ai.router, prefix="/api/ai")
 app.include_router(admin.router, prefix="/api/admin")
 app.include_router(orders.router, prefix="/api/orders")
+
+# ROOT ENDPOINT – FIXES 404 ON /
+@app.get("/")
+async def root():
+    return {
+        "message": "Shopora Backend is LIVE!",
+        "docs": "/docs",
+        "health": "/health"
+    }
+
+# HEALTH CHECK
+@app.get("/health")
+async def health():
+    return {"status": "healthy"}
