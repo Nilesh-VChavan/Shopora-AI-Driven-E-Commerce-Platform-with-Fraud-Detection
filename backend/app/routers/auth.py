@@ -18,13 +18,26 @@ class LoginData(BaseModel):
     email: str
     password: str
 
+# ADD THIS FUNCTION – TRUNCATE PASSWORD TO 72 BYTES (BCRYPT LIMIT)
+def safe_hash_password(password: str) -> str:
+    # Bcrypt fails if password > 72 bytes
+    if len(password.encode('utf-8')) > 72:
+        password = password[:72]  # Truncate safely
+    return pwd_context.hash(password)
+
 @router.post("/register")
 async def register(data: RegisterData):
     if await db.users.find_one({"email": data.email}):
         raise HTTPException(400, "Email already registered")
-    hashed = pwd_context.hash(data.password)
+    
+    # USE SAFE HASH FUNCTION
+    hashed = safe_hash_password(data.password)
+    
     result = await db.users.insert_one({
-        "email": data.email, "password": hashed, "role": "user", "created_at": datetime.utcnow()
+        "email": data.email, 
+        "password": hashed, 
+        "role": "user", 
+        "created_at": datetime.utcnow()
     })
     return {"message": "Registered successfully"}
 
