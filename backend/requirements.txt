@@ -12,3 +12,4 @@ joblib
 pandas
 numpy
 PyJWT
+bcrypt==4.2.0
